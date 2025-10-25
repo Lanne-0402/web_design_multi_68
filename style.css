@@ -219,7 +219,7 @@ a {
   gap: 20px;
   padding: 32px 28px; /* thêm padding trong form */
   background: var(--bg);
-  border: 1px solid #e5e7eb;
+  border: 1px solid #c6c6c6;
   border-radius: 12px;
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
 }
@@ -234,7 +234,7 @@ a {
 .form textarea {
   width: 100%;
   padding: 12px 14px;
-  border: 1px solid var(--bg);
+  border: 1px solid var(--muted);
   border-radius: 8px;
   font: inherit;
 }
@@ -242,7 +242,7 @@ a {
 .form input:focus,
 .form textarea:focus {
   outline: 2px solid var(--light-red);
-  border-color: var(--info-bg);
+  border-color: var(--light-red);
 }
 
 /*---Aside---*/
