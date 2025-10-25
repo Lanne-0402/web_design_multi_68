@@ -20,3 +20,28 @@ $(function() {
     if (ok) this.reset();
   });
 });
+/*chatbot*/
+chatToggle.addEventListener('click', () => {
+        chatBox.style.display = chatBox.style.display === 'flex' ? 'none' : 'flex';
+    });
+
+    closeChat.addEventListener('click', () => {
+        chatBox.style.display = 'none';
+    });
+
+    // Gửi tin nhắn
+    sendBtn.addEventListener('click', sendMessage);
+    chatInput.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') sendMessage();
+    });
+
+    function sendMessage() {
+        const msg = chatInput.value.trim();
+        if (msg) {
+            const userMsg = document.createElement('p');
+            userMsg.innerHTML = `<b>Bạn:</b> ${msg}`;
+            chatMessages.appendChild(userMsg);
+            chatInput.value = '';
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+    }

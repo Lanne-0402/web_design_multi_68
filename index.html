@@ -168,6 +168,24 @@
       </article>
     </section>
   </div>
+  <!-- Nút chat -->
+<button class="chat-button" id="chatToggle"><i class="fa-solid fa-comments"></i> </button>
+
+<!-- Khung chat -->
+<div class="chatbox" id="chatBox">
+    <div class="chat-header">
+        Hỗ Trợ Trực Tuyến
+        <span style="cursor:pointer;" id="closeChat">✖</span>
+    </div>
+    <div class="chat-messages" id="chatMessages">
+        <p><b>Bot:</b>Chúng tôi
+        sẽ phản hồi sớm nhất có thể.</p>
+    </div>
+    <div class="chat-input">
+        <input type="text" id="chatInput" placeholder="Nhập tin nhắn...">
+        <button id="sendBtn">Gửi</button>
+    </div>
+</div>
   </main>
 
   <!-- Footer -->
@@ -209,10 +227,7 @@
       </div>
     </div>
   </footer>
-
   <button class="to-top"><i class="fa-solid fa-arrow-up"></i></button>
-
   <script src="main.js" defer></script>
 </body>
-
 </html>
