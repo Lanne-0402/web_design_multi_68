@@ -16,7 +16,7 @@ $(function() {
   $("#contactForm").on("submit", function (e) {
     e.preventDefault();
     const ok = this.checkValidity();
-    $(".form__msg").text(ok ? "Đã gửi (mẫu demo)" : "Vui lòng nhập đủ thông tin");
+    $(".form__msg").text(ok ? "Đã gửi" : "Vui lòng nhập đủ thông tin");
     if (ok) this.reset();
   });
 });
