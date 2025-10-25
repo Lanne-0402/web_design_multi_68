@@ -3,26 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trang Chủ</title>
+    <title>Trang Chủ - Cổng thông tin khoa Công nghệ thông tin 2</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 </head>
 <body>
     <div class="topbar">
       <div class="container">
-          <div><i class="fa-regular fa-envelope"></i> hvbcvthcm@ptithcm.edu.vn</div>
+          <div><i class="fa-regular fa-envelope"></i> lienhe@dhx.edu.vn</div>
             <div>
-              <a href="https://www.facebook.com/ptithochiminh" class="topbar__link"><i class="fa-brands fa-facebook"></i></a>
-              <a href="https://youtube.com/@tuyensinh_ptithcm?si=E6a5Gi7-2wEoT5-8" class="topbar__link"><i class="fa-brands fa-youtube"></i></a>
+              <a href="#" class="topbar__link"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#" class="topbar__link"><i class="fa-brands fa-youtube"></i></a>
             </div>
       </div>
     </div>
     <header class="header">
         <div class="container header__wrap">
             <a class="logo" href="index.html">
-                <img src="access/logo.png" alt="Logo HV CNBCVT" onerror="this.style.display='none'">
+                <img src="logo.png" alt="Logo HV CNBCVT" onerror="this.style.display='none'">
                 <p>KHOA CÔNG NGHỆ THÔNG TIN 2<span><br>HỌC VIỆN CÔNG NGHỆ BƯU CHÍNH VIỄN THÔNG CƠ SỞ TP HỒ CHÍ MINH</span> </p>
             </a>       
         </div>
@@ -31,24 +31,23 @@
   <nav class="nav">
         <div class="container">
             <ul class="nav__list">
-                <li><a class="nav__link" href="index.html">Trang chủ</a></li>
+                <li><a class="nav__link is-active" href="index.html">Trang chủ</a></li>
                 <li><a class="nav__link" href="student.html">Sinh viên</a></li>
-                <li><a class="nav__link is-active" href="academics.html">Đào tạo</a></li>
+                <li><a class="nav__link" href="academics.html">Đào tạo</a></li>
                 <li><a class="nav__link" href="contact.html">Liên hệ</a></li>
                 <li class="nav__push"><a class="btn btn--primary" href="contact.html">Đăng ký tư vấn</a></li>
             </ul>
         </div>
   </nav>
+  <main class="section">
     <div class="container">
+
     <h1>Chương Trình Đào Tạo</h1>
     <p class="lead" style="margin: 10px 0 24px;color: #444;">
-    <b> Học Viện Công Nghệ Bưu Chính Viễn Thông: </b> có 17 ngành đào tạo đại trà và 03 chương trình CLC, trong đó bao gồm nhiều ngành nghề đang được 
+    <p> <b> Học Viện Công Nghệ Bưu Chính Viễn Thông</b> 17 ngành đào tạo đại trà và 03 chương trình CLC, trong đó bao gồm nhiều ngành nghề đang được 
         xã hội quan tâm nhất. Các chương trình học tại Học Viện Công Nghệ Bưu Chính Viễn Thông được thực hiện theo chuẩn đào tạo quốc tế, mang lại sự phát triển toàn diện nhất về thể chất lẫn trí tuệ. </p>
-    </p>
-    </div>
-    
+    </p> <br>
     <!--it-->
-    <section class="container">
     <article id="it" class="card card--program" style="margin-bottom: 24px;">
             <div class="card" style="box-shadow: none;">
                 <h1 style="margin-top: 0;"> Công Nghệ Thông Tin </h1>
@@ -84,9 +83,7 @@
                     </p>
         </div>
     </article>
-    </section>
             <!--Công nghệ đa phương tiện-->
-    <section class="container">
     <article id="multi" class="card card--program" style="margin-bottom: 24px;">
             <div class="card" style="box-shadow: none;">
                 <h1 style="margin-top: 0;"> Công Nghệ Đa Phương Tiện </h1>
@@ -130,10 +127,8 @@
                     </p>
         </div>
     </article>
-    </section>
             <!--An toàn thông tin-->
 
-    <section class="container">
     <article id="protech" class="card card--program" style="margin-bottom: 24px;">
         
             <div class="card" style="box-shadow: none;">
@@ -173,8 +168,11 @@
                     </p>
             </div>
     </article>
-    </section>
-    <footer class="footer">
+
+     </div>
+  </main>
+    <!-- Footer -->
+  <footer class="footer">
     <div class="container footer__grid">
       <div>
         <div><b>KHOA CÔNG NGHỆ THÔNG TIN 2</b></div>
@@ -212,6 +210,9 @@
       </div>
     </div>
   </footer>
-    </main>
+
+  <button class="to-top"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <script src="main.js" defer></script>
 </body>
 </html>
