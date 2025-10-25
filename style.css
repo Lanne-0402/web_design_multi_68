@@ -61,7 +61,7 @@ a {
 }
 /*TOPBAR*/
 .topbar {
-    background:var(--bg);
+    background:var(--light-red);
     color: var(--dark-red);
     font-size: 14px;
 }
