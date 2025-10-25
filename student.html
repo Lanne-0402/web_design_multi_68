@@ -10,13 +10,34 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
     <body>
-    <nav class="nav"><div class="container"><ul class="nav__list">
-        <li><a class="nav__link" href="index.html"> Trang Chủ </a></li>
-        <li><a class="nav__link is-action" href="student.html"> Sinh Viên </a></li>
-        <li><a class="nav__link" href="academics.html"> Đào Tạo </a></li>
-        <li><a class="nav__link" href="contact.html"> Liên hệ </a></li>
-    </ul> </div> </nav>
-
+    <div class="topbar">
+      <div class="container">
+          <div><i class="fa-regular fa-envelope"></i> hvbcvthcm@ptithcm.edu.vn</div>
+            <div>
+              <a href="https://www.facebook.com/ptithochiminh" class="topbar__link"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://youtube.com/@tuyensinh_ptithcm?si=E6a5Gi7-2wEoT5-8" class="topbar__link"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+      </div>
+    </div>
+    <header class="header">
+        <div class="container header__wrap">
+            <a class="logo" href="index.html">
+                <img src="access/logo.png" alt="Logo HV CNBCVT" onerror="this.style.display='none'">
+                <p>KHOA CÔNG NGHỆ THÔNG TIN 2<span><br>HỌC VIỆN CÔNG NGHỆ BƯU CHÍNH VIỄN THÔNG CƠ SỞ TP HỒ CHÍ MINH</span> </p>
+            </a>       
+        </div>
+  </header>
+  <nav class="nav">
+        <div class="container">
+            <ul class="nav__list">
+                <li><a class="nav__link" href="index.html">Trang chủ</a></li>
+                <li><a class="nav__link is-active" href="student.html">Sinh viên</a></li>
+                <li><a class="nav__link" href="academics.html">Đào tạo</a></li>
+                <li><a class="nav__link" href="contact.html">Liên hệ</a></li>
+                <li class="nav__push"><a class="btn btn--primary" href="contact.html">Đăng ký tư vấn</a></li>
+            </ul>
+        </div>
+  </nav>
     <main class="about-page">
         <div class="container about-layout">
             <!--Sidebar-->
